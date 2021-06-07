@@ -1,5 +1,5 @@
 import { Actor, HttpAgent } from '@dfinity/agent';
-import { idlFactory as hello_idl, canisterId as hello_id } from 'dfx-generated/hello';
+import { idlFactory as hello_idl, canisterId as hello_id } from 'dfx-generated/bank';
 
 const agent = new HttpAgent();
 const hello = Actor.createActor(hello_idl, { agent, canisterId: hello_id });

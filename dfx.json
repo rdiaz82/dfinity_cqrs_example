@@ -1,19 +1,19 @@
 {
   "canisters": {
-    "hello": {
-      "main": "src/hello/main.mo",
+    "bank": {
+      "main": "src/bank/main.mo",
       "type": "motoko"
     },
-    "hello_assets": {
+    "bank_assets": {
       "dependencies": [
-        "hello"
+        "bank"
       ],
       "frontend": {
-        "entrypoint": "src/hello_assets/src/index.html"
+        "entrypoint": "src/bank_assets/src/index.html"
       },
       "source": [
-        "src/hello_assets/assets",
-        "dist/hello_assets/"
+        "src/bank_assets/assets",
+        "dist/bank_assets/"
       ],
       "type": "assets"
     }
