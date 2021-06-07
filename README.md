@@ -51,8 +51,8 @@ In order to test the application, here are some output examples:
 (
   opt record {
     balance = 275.25;
-    name = "Roberto";
-    surname = "Diaz";
+    name = "Joe";
+    surname = "Peralta";
     accountNumber = 1;
   },
 )
